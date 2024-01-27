@@ -6,7 +6,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: "Coding",
-			favicon: "./favicon.svg",
+			favicon: "/favicon.svg",
 			logo: {
 				src: "./src/assets/logo.webp",
 				light: "./src/assets/logo.webp",
@@ -20,8 +20,8 @@ export default defineConfig({
 					label: "Terminales",
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: "Windows", link: "/terminales/windows" },
-						{ label: "Ubuntu/Linux", link: "/terminales/linux" },
+						{ label: "Windows", link: "/terminals/windows" },
+						{ label: "Ubuntu/Linux", link: "/terminals/linux" },
 					],
 				},
 				{
