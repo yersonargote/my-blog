@@ -22,7 +22,6 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: "Windows", link: "/terminales/windows" },
 						{ label: "Ubuntu/Linux", link: "/terminales/linux" },
-						{ label: "IOS", link: "/terminales/ios" },
 					],
 				},
 				{
