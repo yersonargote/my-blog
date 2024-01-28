@@ -19,15 +19,26 @@ export default defineConfig({
 				{
 					label: "Terminales",
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: "Windows", link: "/terminals/windows" },
 						{ label: "Ubuntu/Linux", link: "/terminals/linux" },
 					],
 				},
 				{
-					label: "Reference",
-					autogenerate: { directory: "reference" },
+					label: "Shells",
+					items: [
+						{ label: "Zsh", link: "/shells/zsh" },
+					],
 				},
+				{
+					label: "Lenguajes",
+					items: [
+						{ label: "Node.js", link: "/languages/node" },
+						{ label: "Python", link: "/languages/py" },
+						{ label: "Rust", link: "/languages/rs" },
+						{ label: "Java", link: "/languages/java" },
+						{ label: "Go", link: "/languages/go" },
+					]
+				}
 			],
 			locales: {
 				root: {
