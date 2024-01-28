@@ -1,0 +1,30 @@
+---
+title: Go
+description: Go es un lenguaje de programación de código abierto que facilita la creación de software simple, confiable y eficiente.
+---
+
+**Go** es un lenguaje de programación de código abierto que facilita la creación de software simple, confiable y eficiente.
+
+## Instalación
+
+**Nota:** Nos enfocaremos en la instalación en [Linux](/terminals/linux/), si usas Windows te recomiendo que uses [WSL2](/terminals/windows/).
+
+**Lastimosamente** no existe un link unico que perdure en el tiempo para instalar **Go**, pero puedes encontrar la versión más actualizada en la [documentación oficial](https://go.dev/doc/install).
+
+Instalación de **Go** en **Linux**.
+
+```bash
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.21.6.linux-amd64.tar.gz
+```
+
+Agregar el siguiente código al final del archivo `~/.zshrc` o `~/.bashrc`.
+
+```bash
+export PATH=$PATH:/usr/local/go/bin
+```
+
+Verificar la instalación.
+
+```bash
+go version
+```
