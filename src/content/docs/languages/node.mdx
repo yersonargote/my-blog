@@ -1,0 +1,48 @@
+---
+title: Node.js
+description: Node es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.
+---
+
+**Node.js** es un entorno de ejecución para **JavaScript** construido con el motor de **JavaScript V8** de **Chrome**.
+
+## Instalación
+
+**Nota:** Nos enfocaremos en la instalación en [**Linux**](/terminals/linux/), si usas Windows te recomiendo que uses [**WSL2**](/terminals/windows/).
+
+### Instalar fnm
+
+**fnm** es un gestor de versiones **Node.js** rápido y sencillo, construido en Rust.
+
+```bash
+curl -fsSL https://fnm.vercel.app/install | bash
+```
+
+**Nota:** Para más información sobre **fnm** visita su [repositorio](https://github.com/Schniz/fnm.git).
+
+### Instalar Node.js
+
+Para mostrar la lista de versiones disponibles de **Node.js**.
+
+```bash
+fnm list-remote
+```
+
+Para instalar una versión de **Node.js** y **npm**.
+
+```bash
+fnm install <version>
+# Ejemplo: Recomiendo usar la última versión LTS.
+fnm install v20
+```
+
+Verificar la versión de **Node.js** instalada.
+
+```bash
+node -v
+```
+
+Verificar la versión de **npm** instalada.
+
+```bash
+npm -v
+```
